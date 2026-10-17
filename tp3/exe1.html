@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset><legend>client</legend> 
+        <table>
+            <tr>
+                <td><label>civilite</label>
+            <input type="radio" name="civ">mademoiselle
+            <input type="radio" name="civ">madame
+            <input type="radio" name="civ" checked>monsieur
+            </td>
+            <tr>
+                <td><label>nom/prenom</label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td><label>adresse</label>
+                    <input type="email">
+                </td>
+            </tr>
+            <tr>
+                <td><label>no postal/localite</label>
+                    <input type="text" name="post">
+                    <input type="text" name="loc" valeur="bizert">
+                </td>
+            </tr>
+             <tr>
+                <td><label>pays</label>
+                    <select>
+                        <option>suisse</option>
+                        <option>france</option>
+                    </select>
+                </td>
+            </tr>
+             <tr>
+                <td><label>platforme</label>
+                    <input type="checkbox" name="platforme[]">windows
+                    <input type="checkbox" name="platforme[]"checked>macintosh
+                    <input type="checkbox" name="platforme[]">unix
+                </td>
+            </tr>
+            <tr>
+                <td><label>applications</label>
+                    <select>
+                        <option>bureautique</option>
+                        <option>dao</option>
+                        <option>
+                            statistique
+                        </option>
+                        <option>SGBD</option>
+                        <option>internet</option>
+
+
+
+                    </select>
+                </td>
+    
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
