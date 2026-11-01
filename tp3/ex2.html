@@ -3,48 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>formulaire</title>
 </head>
-<body>
+<body bgcolor="lightblue">
+    <h1><b>les elements de saisie</b></h1>
     <form>
-        <h3><b>les elements de saisie</b> </h3>
-        <fieldset><table>
-          <legend>1er formulaire</legend>
-           <tr><td><label>date</label><input type="date" value="jj/mm/aaaa"></td> </tr>
-           <tr><td><label>heure</label><input type="datetime" value="--:--"></td> </tr>
-          <tr><td><label>date et heure</label><input type="datetime-local" value="saisir une date et heure> </td> </tr>
-          <tr><td><label>mois</label>
-            <input type="text" value="--------------- -----"> </td> </tr>
-<tr><td><label>semaine</label><input type="semaine" value="semaine --,----""></td> </tr>
-<input typeg
-
-
-
-
-
-
-
-
-
-
-
-            </table>
-
-
-
-
-
-
-
+        <fieldset style="border:solid black">
+            <legend>1 ere formulaire </legend>
+            <label>date</label><input type="date" placeholder="jj/mm/aaaa"><br>
+            <label>heure</label><input type="time" placeholder="--:--"><br>
+            <label>date et heure </label><input type="datetime" placeholder="saisir une date et heure "><br>
+            <label>mois</label><input type="month" placeholder="-------"><br>
+            <label>semaine</label><input type="week" placeholder="semaine--,----"><br>
+            <input type="submit" value="envoyer">
 
 
         </fieldset>
+        <fieldset style="border:solid black">
+            <legend>2 eme formulaire </legend>
+            <label>salaire ideal</label><input type="number" placeholder="1500"><br>
+            <label>etat de bonheur actuel</label><input type="range"><br>
+            <label>numero de telephone </label><input type="tel" placeholder="saisir une date et heure "><br>
+            <label>adresse mail</label><input type="email" placeholder="saisir une @mail " ><br>
+            <label>site web</label>
+            <input type="url" placeholder="saisir une url"><br>
+            <label>couleur favorite</label><input type="color" ><br>
+            <label>chaine de recherche</label><input type="search"><br>
+            <input type="submit" value="envoyer">
 
 
-
-
-
-
+        </fieldset>
     </form>
+    
 </body>
 </html>

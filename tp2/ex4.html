@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Types d'imprimantes</title>
+</head>
+<body>
+
+    <form>
+        <!-- On utilise un fieldset classique -->
+        <fieldset>
+            <!-- Pour centrer le titre en HTML pur -->
+            <center>
+                <font size="6"><b>Types d'imprimantes</b></font>
+            </center>
+            
+            <br> <!-- Saut de ligne pour faire de l'espace -->
+            
+            <!-- On utilise <font size="4"> pour agrandir le texte -->
+            <font size="4">
+                <p>on peut classer les imprimantes selon la technique d'impression</p>
+                <p>on distingue alors 3 types 
+                    <a href="http://www.commentcamarche.net/contents/748-imprimante#l-imprimante-matricielle">Matricielle</a>
+                    <a href="http://www.commentcamarche.net/contents/748-imprimante#l-imprimante-a-jet-d-encre-et-a-bulles-d-encre">jet d'encre</a>
+                    <a href="http://www.commentcamarche.net/contents/748-imprimante#l-imprimante-laser">Laser</a>
+                </p>
+            </font>
+
+            <br> <!-- Espace avant le tableau -->
+            
+            <!-- On agrandit le tableau avec cellpadding="15" et cellspacing="2" -->
+            <table border="2" cellpadding="15" cellspacing="2" width="100%"> 
+                <tr>
+                    <!-- On met le texte en gras et on l'agrandit un peu -->
+                    <td><font size="4"><b>imprimante Matricielle </b>(imprimante à aiguille, imprimante à impact)</font></td>
+                    <td><img src="matricielle.jpeg" width="10" height="10" alt="Img"> </td> 
+                    <td width="400"><font size="4">permet d'imprimer des documents sur le papier grâce au va-et-vient d'un chariot comportant une tête d'impression </font></td>
+                </tr>
+                
+                <tr>
+                    <td><font size="4"><b>imprimante à jet d'encre</b> (bubble jet printer)</font></td>
+                    <td><img src="images/jet_encre.jpeg" width="10" height="10" alt="Img"></td>
+                    <td width="400"><font size="4">a été originellement inventée par Canon, elle repose sur le principe qu'un fluide chauffé produit des bulles </font></td>
+                </tr>
+                
+                <tr>
+                    <td><font size="4"><b>imprimante laser</b></font></td>
+                    <td><img src="Laser.jpeg" width="10" height="10" alt="Img"></td>
+                    <td width="400"><font size="4">permet d'obtenir des tirages papier de qualité, à faible coût et avec une vitesse d'impression élevée. En revanche, le coût d'acquisition d'une telle imprimante la réserve à des usages semi-pro ou pro</font></td>
+                </tr>
+            </table>
+            
+            <br><br> <!-- Espace à la fin -->
+        </fieldset>
+    </form>
+
+</body>
+</html>
